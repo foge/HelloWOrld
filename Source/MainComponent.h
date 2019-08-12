@@ -10,6 +10,14 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 
+struct Car
+{
+    int numberOfWheels;
+    bool convertable;
+    
+    void accelerate(float howFarToPushThePedal);
+};
+
 //==============================================================================
 /*
     This component lives inside our window, and this is where you should put all
